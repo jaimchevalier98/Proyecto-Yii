@@ -1,11 +1,10 @@
 $( document ).ready(function() {
     $('#bt_proyecto').click(function(){
-        //alert("clip");
-        $('#bt_proyecto').hide();
+        $('#bt_proyecto').attr("disabled", true);
         $('#proyecto').slideDown();
     });
     $('#bt_cancel').click( function(){
-        alert('sds');
+         $('#bt_proyecto').attr("disabled", false);
         $('#bt_proyecto').show();
         $('#proyecto').slideUp();
     });

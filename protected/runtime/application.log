@@ -1572,3 +1572,642 @@ Stack trace:
 REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
 HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
 ---
+2016/02/01 00:00:34 [error] [exception.CException] exception 'CException' with message 'Property "ProyectoForm.estado" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('estado')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(ProyectoForm), 'estado')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(ProyectoForm), 'estado', Array)
+#3 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(ProyectoForm), 'estado', Array)
+#4 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(36): CActiveForm->textField(Object(ProyectoForm), 'estado')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#9 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#16 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:00:36 [error] [exception.CException] exception 'CException' with message 'Property "ProyectoForm.estado" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('estado')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(ProyectoForm), 'estado')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(ProyectoForm), 'estado', Array)
+#3 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(ProyectoForm), 'estado', Array)
+#4 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(36): CActiveForm->textField(Object(ProyectoForm), 'estado')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#9 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#16 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:01:27 [error] [exception.CException] exception 'CException' with message 'Property "TbActiveForm.enableClientVadation" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enableClientVad...', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(197): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(25): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#8 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:01:29 [error] [exception.CException] exception 'CException' with message 'Property "TbActiveForm.enableClientVadation" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enableClientVad...', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(197): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(25): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#8 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:01:49 [error] [exception.CException] exception 'CException' with message 'Property "TbActiveForm.enableClientVadation" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enableClientVad...', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(197): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(25): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#8 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:01:51 [error] [exception.CException] exception 'CException' with message 'Property "TbActiveForm.enableClientVadation" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enableClientVad...', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(197): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(25): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#8 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:01:51 [error] [exception.CException] exception 'CException' with message 'Property "TbActiveForm.enableClientVadation" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enableClientVad...', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(197): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(25): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#8 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:01:52 [error] [exception.CException] exception 'CException' with message 'Property "TbActiveForm.enableClientVadation" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enableClientVad...', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(197): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(25): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#8 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:02:04 [error] [exception.CException] exception 'CException' with message 'Property "TbActiveForm.enableClientVadation" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enableClientVad...', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(197): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(25): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#8 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:02:06 [error] [exception.CException] exception 'CException' with message 'Property "TbActiveForm.enableClientVadation" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enableClientVad...', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(197): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(25): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#8 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:04:44 [error] [exception.CException] exception 'CException' with message 'Property "ProyectoForm.nombreGerente" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('nombreGerente')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(ProyectoForm), 'nombreGerente')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(ProyectoForm), 'nombreGerente', Array)
+#3 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(ProyectoForm), 'nombreGerente', Array)
+#4 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(34): CActiveForm->textField(Object(ProyectoForm), 'nombreGerente')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#9 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#16 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 00:04:46 [error] [exception.CException] exception 'CException' with message 'Property "ProyectoForm.nombreGerente" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('nombreGerente')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(ProyectoForm), 'nombreGerente')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(ProyectoForm), 'nombreGerente', Array)
+#3 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(ProyectoForm), 'nombreGerente', Array)
+#4 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(34): CActiveForm->textField(Object(ProyectoForm), 'nombreGerente')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#9 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#16 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/index.html
+---
+2016/02/01 22:47:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "proyecto".' in C:\xampp\htdocs\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(270): CController->missingAction('proyecto')
+#1 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyecto')
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyecto')
+#3 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyecto.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/proyectos.html
+---
+2016/02/01 22:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "proyecto".' in C:\xampp\htdocs\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(270): CController->missingAction('proyecto')
+#1 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyecto')
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyecto')
+#3 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyecto.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/proyectos.html
+---
+2016/02/01 22:47:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "proyecto".' in C:\xampp\htdocs\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(270): CController->missingAction('proyecto')
+#1 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyecto')
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyecto')
+#3 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyecto.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/proyectos.html
+---
+2016/02/01 22:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "proyecto".' in C:\xampp\htdocs\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(270): CController->missingAction('proyecto')
+#1 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyecto')
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyecto')
+#3 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyecto.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/proyectos.html
+---
+2016/02/01 22:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "proyecto".' in C:\xampp\htdocs\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(270): CController->missingAction('proyecto')
+#1 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyecto')
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyecto')
+#3 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyecto.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php/site/proyectos.html
+---
+2016/02/01 23:08:08 [error] [exception.CException] exception 'CException' with message 'Property "ProyectoForm.RepresentanteComite" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('RepresentanteCo...')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(ProyectoForm), 'RepresentanteCo...')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(ProyectoForm), 'RepresentanteCo...', Array)
+#3 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(ProyectoForm), 'RepresentanteCo...', Array)
+#4 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(43): CActiveForm->textField(Object(ProyectoForm), 'RepresentanteCo...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#9 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#16 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php
+---
+2016/02/01 23:08:10 [error] [exception.CException] exception 'CException' with message 'Property "ProyectoForm.RepresentanteComite" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('RepresentanteCo...')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(ProyectoForm), 'RepresentanteCo...')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(ProyectoForm), 'RepresentanteCo...', Array)
+#3 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(ProyectoForm), 'RepresentanteCo...', Array)
+#4 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(43): CActiveForm->textField(Object(ProyectoForm), 'RepresentanteCo...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#9 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#16 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php
+---
+2016/02/01 23:37:02 [error] [php] Missing argument 1 for CActiveForm::labelEx(), called in C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php on line 68 and defined (C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php:598)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): SiteController->render()
+#4 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\BgBosstrap\index.php(13): CWebApplication->run()
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+in C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php (68)
+in C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php (45)
+in C:\xampp\htdocs\BgBosstrap\index.php (13)
+2016/02/01 23:37:04 [error] [php] Missing argument 1 for CActiveForm::labelEx(), called in C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php on line 68 and defined (C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php:598)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): SiteController->render()
+#4 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\BgBosstrap\index.php(13): CWebApplication->run()
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+in C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php (68)
+in C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php (45)
+in C:\xampp\htdocs\BgBosstrap\index.php (13)
+2016/02/01 23:37:10 [error] [php] Missing argument 2 for CActiveForm::labelEx(), called in C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php on line 68 and defined (C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php:598)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): SiteController->render()
+#4 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\BgBosstrap\index.php(13): CWebApplication->run()
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+in C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php (68)
+in C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php (45)
+in C:\xampp\htdocs\BgBosstrap\index.php (13)
+2016/02/01 23:37:12 [error] [php] Missing argument 2 for CActiveForm::labelEx(), called in C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php on line 68 and defined (C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php:598)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): SiteController->render()
+#4 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\BgBosstrap\index.php(13): CWebApplication->run()
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+in C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php (68)
+in C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php (45)
+in C:\xampp\htdocs\BgBosstrap\index.php (13)
+2016/02/01 23:37:52 [error] [exception.CException] exception 'CException' with message 'Property "ProyectoForm.liderTI" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('liderTI')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(ProyectoForm), 'liderTI')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(ProyectoForm), 'liderTI', Array)
+#3 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(ProyectoForm), 'liderTI', Array)
+#4 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(52): CActiveForm->textField(Object(ProyectoForm), 'liderTI')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#9 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#16 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php
+---
+2016/02/01 23:37:54 [error] [exception.CException] exception 'CException' with message 'Property "ProyectoForm.liderTI" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('liderTI')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(ProyectoForm), 'liderTI')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(ProyectoForm), 'liderTI', Array)
+#3 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(ProyectoForm), 'liderTI', Array)
+#4 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(52): CActiveForm->textField(Object(ProyectoForm), 'liderTI')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('proyectos', Array, true)
+#9 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): CController->render('proyectos', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('proyectos')
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/proyectos')
+#16 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\BgBosstrap\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+HTTP_REFERER=http://localhost/BgBosstrap/index.php
+---
+2016/02/01 23:58:03 [error] [php] include(faseProyecto.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Yii\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\Yii\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\Yii\framework\validators\CValidator.php(174): import()
+#3 C:\xampp\htdocs\Yii\framework\base\CModel.php(287): createValidator()
+#4 C:\xampp\htdocs\Yii\framework\base\CModel.php(260): ProyectoForm->createValidators()
+#5 C:\xampp\htdocs\Yii\framework\base\CModel.php(304): ProyectoForm->getValidators()
+#6 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1514): ProyectoForm->isAttributeRequired()
+#7 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php(253): TbActiveForm->labelEx()
+#9 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInputVertical.php(59): TbInputVertical->getLabel()
+#10 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php(201): TbInputVertical->dropDownList()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): TbInputVertical->run()
+#12 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): SiteController->widget()
+#13 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\TbActiveForm.php(112): TbActiveForm->inputRow()
+#14 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(31): TbActiveForm->dropDownListRow()
+#15 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#16 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#19 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): SiteController->render()
+#20 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#21 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\BgBosstrap\index.php(13): CWebApplication->run()
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php (253)
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInputVertical.php (59)
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php (201)
+2016/02/01 23:58:05 [error] [php] include(faseProyecto.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Yii\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\Yii\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\Yii\framework\validators\CValidator.php(174): import()
+#3 C:\xampp\htdocs\Yii\framework\base\CModel.php(287): createValidator()
+#4 C:\xampp\htdocs\Yii\framework\base\CModel.php(260): ProyectoForm->createValidators()
+#5 C:\xampp\htdocs\Yii\framework\base\CModel.php(304): ProyectoForm->getValidators()
+#6 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1514): ProyectoForm->isAttributeRequired()
+#7 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php(253): TbActiveForm->labelEx()
+#9 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInputVertical.php(59): TbInputVertical->getLabel()
+#10 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php(201): TbInputVertical->dropDownList()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): TbInputVertical->run()
+#12 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): SiteController->widget()
+#13 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\TbActiveForm.php(112): TbActiveForm->inputRow()
+#14 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(31): TbActiveForm->dropDownListRow()
+#15 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#16 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#19 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): SiteController->render()
+#20 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#21 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\BgBosstrap\index.php(13): CWebApplication->run()
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php (253)
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInputVertical.php (59)
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php (201)
+2016/02/01 23:58:17 [error] [php] include(faseProyecto.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Yii\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\Yii\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\Yii\framework\validators\CValidator.php(174): import()
+#3 C:\xampp\htdocs\Yii\framework\base\CModel.php(287): createValidator()
+#4 C:\xampp\htdocs\Yii\framework\base\CModel.php(260): ProyectoForm->createValidators()
+#5 C:\xampp\htdocs\Yii\framework\base\CModel.php(304): ProyectoForm->getValidators()
+#6 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1514): ProyectoForm->isAttributeRequired()
+#7 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php(253): TbActiveForm->labelEx()
+#9 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInputVertical.php(59): TbInputVertical->getLabel()
+#10 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php(201): TbInputVertical->dropDownList()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): TbInputVertical->run()
+#12 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): SiteController->widget()
+#13 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\TbActiveForm.php(112): TbActiveForm->inputRow()
+#14 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(31): TbActiveForm->dropDownListRow()
+#15 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#16 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#19 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): SiteController->render()
+#20 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#21 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\BgBosstrap\index.php(13): CWebApplication->run()
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php (253)
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInputVertical.php (59)
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php (201)
+2016/02/01 23:58:19 [error] [php] include(faseProyecto.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Yii\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\Yii\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\Yii\framework\validators\CValidator.php(174): import()
+#3 C:\xampp\htdocs\Yii\framework\base\CModel.php(287): createValidator()
+#4 C:\xampp\htdocs\Yii\framework\base\CModel.php(260): ProyectoForm->createValidators()
+#5 C:\xampp\htdocs\Yii\framework\base\CModel.php(304): ProyectoForm->getValidators()
+#6 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1514): ProyectoForm->isAttributeRequired()
+#7 C:\xampp\htdocs\Yii\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php(253): TbActiveForm->labelEx()
+#9 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInputVertical.php(59): TbInputVertical->getLabel()
+#10 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php(201): TbInputVertical->dropDownList()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): TbInputVertical->run()
+#12 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): SiteController->widget()
+#13 C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\TbActiveForm.php(112): TbActiveForm->inputRow()
+#14 C:\xampp\htdocs\BgBosstrap\protected\views\site\proyectos.php(31): TbActiveForm->dropDownListRow()
+#15 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#16 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#19 C:\xampp\htdocs\BgBosstrap\protected\controllers\SiteController.php(45): SiteController->render()
+#20 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionProyectos()
+#21 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\BgBosstrap\index.php(13): CWebApplication->run()
+REQUEST_URI=/BgBosstrap/index.php/site/proyectos.html
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php (253)
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInputVertical.php (59)
+in C:\xampp\htdocs\BgBosstrap\protected\extensions\bootstrap\widgets\input\TbInput.php (201)

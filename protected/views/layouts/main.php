@@ -44,7 +44,7 @@
             <?php endif ?>
         </div>
         
-        <div class="clear"></div>
+       
     
         <?php echo $content; ?>      
 
